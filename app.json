@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "my-scheme",
     "name": "nav-two",
     "slug": "nav-two",
     "version": "1.0.0",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
